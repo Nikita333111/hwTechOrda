@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .data {
+            display: block;
+            margin-bottom: 100px;
+        }
+
+        .data-item {
+            display: inline;
+            margin-right: 420px;
+            border: solid;
+            border-color: red;
+            border-radius: 3px;
+        }
+        table{
+            height: 500px;
+            width: 500px;
+        }
+        td,th {
+            border: 1px solid silver;
+            text-align: left;
+            padding: auto;
+        }
+        .descr-item {
+            display: inline;
+        }
+    </style>
+    <header>
+        <nav>
+        <ul class="data">
+            <li class="data-item"><a href="#table">table</a></li>
+            <li class="data-item"><a href="#list">list</a></li>
+            <li class="data-item"><a href="#descr-lists">descr-list</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <h3 id="table">Table</h3>
+        <table>
+        <thead>
+            <tr>
+                <td>name</td>
+                <td>date</td>
+                <td>salary</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nikita</td>
+                <td>14.03.2023</td>
+                <td>1300000</td>
+            </tr>
+            <tr>
+                <td>Andrey</td>
+                <td>02.07.2020</td>
+                <td>300000</td>
+            </tr>
+            <tr>
+                <td>Alex</td>
+                <td>04.06.2019</td>
+                <td>800000</td>
+            </tr>
+        </tbody>
+        </table>
+
+        <h3 id="list">Ordered List</h3>
+        <fieldset>
+        <ol>
+            <li>1 + 2 ?</li>
+            <p>Answer: 3</p>
+            <li>2 + 2 ?</li>
+            <p>Answer: 4</p>
+            <li>6 + 3 ?</li>
+            <p>Answer: 9</p>
+            <li>3 + 2 ?</li>
+            <p>Answer: 5</p>
+            <li>10 + 3 ?</li>
+            <p>Answer: 13</p>
+            <li>5 + 6 ?</li>
+            <p>Answer: 11</p>
+            <li>16 + 16 ?</li>
+            <p>Answer: 32</p>
+            <li>20 + 1 ?</li>
+            <p>Answer: 21</p>
+            <li>9 + 8 ?</li>
+            <p>Answer: 17</p>
+            <li>32 + 35</li>
+            <p>Answer: 67</p>
+        </ol>
+    </fieldset>
+    </main>
+    <footer id="descr-lists">
+        <dl>
+            <dt>number</dt>
+            <dd class="descr-item">+77002450671.</dd>
+        
+            <dt>email</dt>
+            <dd class="descr-item">ratatyi04@gmail.com.</dd>
+        
+            <dt>addres</dt>
+            <dd class="descr-item">
+                <pre>2 Grove Road
+London
+SW74 5EO
+                </pre>
+            </dd>
+        </dl>
+    </footer>
+</body>
+</html>

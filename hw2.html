@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        input{
+            display: block;
+            margin-bottom: 16px;
+        }
+    </style>
+    <h3>form of registration</h3>
+    <form>
+        <fieldset>
+            <legend>Registration</legend>
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+
+            <label for="surname">surname</label>
+            <input type="text" id="surname" name="surname">
+
+            <label for="password">password</label>
+            <input type="password" id="password" name="psw">
+
+            <label for="email">email</label>
+            <input type="email" id="email" required name="eml">
+
+            <label for="date">date</label>
+            <input type="date" id="date" name="date">
+
+            <label for="phoneNumber">Phone Number</label>
+            <input type="tel" id="phoneNumber" name="phone" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Pick your country</legend>
+            <select name="city" id="city">
+                <option value="almaty">Almaty</option>
+                <option value="astana">Astana</option>
+                <option value="shymkent">Shymkent</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Pick your gender</legend>
+            <label for="male">male</label>
+            <input type="checkbox" id="male" name="male">
+
+            <label for="female">female</label>
+            <input type="checkbox" id="female" name="male">
+        </fieldset>
+        <button type="reset">clear</button>
+        <button type="button"><a href="">Sign up</a></button>
+    </form>
+</body>
+</html>
